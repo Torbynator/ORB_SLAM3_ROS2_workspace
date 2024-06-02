@@ -1,0 +1,682 @@
+[0.007s] Invoking command in '/home/torben/Dev/orbslam_ros/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/torben/Dev/orbslam_ros/build/orbslam3 -- -j12 -l12
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target mono[0m
+[0.047s] [ 25%] Built target rgbd
+[0.057s] [ 58%] Built target stereo-inertial
+[0.057s] [ 58%] [32mBuilding CXX object CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o[0m
+[0.060s] [ 83%] Built target stereo
+[2.799s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:30[m[K,
+[2.799s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.800s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.800s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.800s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.800s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.800s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[2.800s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[2.800s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[2.800s] [01m[K/home/torben/Dev/ORB_SLAM3/include/ImuTypes.h:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const[m[K’:
+[2.800s] [01m[K/home/torben/Dev/ORB_SLAM3/include/ImuTypes.h:204:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.800s]   204 |         for(int i=0; [01;35m[Ki<mvMeasurements.size()[m[K; i++){
+[2.800s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.850s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[2.851s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.851s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.851s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.851s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.851s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.851s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.851s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.851s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[2.851s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[2.851s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[2.851s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:[m[K At global scope:
+[2.851s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.851s]    62 | igen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[2.851s]       |                                                             [01;35m[K^~~~~~~~~~[m[K
+[2.851s] 
+[2.851s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.851s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.852s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.852s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.852s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.852s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[2.852s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.852s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.852s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.852s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.852s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.852s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[2.852s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[2.852s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[2.852s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.852s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.852s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.865s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.865s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.865s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.865s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.865s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.865s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.865s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.865s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.865s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[2.865s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[2.865s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[2.865s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.866s]    59 | Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[2.866s]       |                                                             [01;35m[K^~~~~~~~~~[m[K
+[2.866s] 
+[2.866s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.866s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.866s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.866s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.866s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.866s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[2.866s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.866s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.866s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.866s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.866s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.866s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[2.866s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[2.866s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[2.866s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.867s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.867s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.867s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[2.867s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.867s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.867s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.867s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.867s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.867s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.867s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.867s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[2.867s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[2.867s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[2.867s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.867s]    60 | Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[2.867s]       |                                                             [01;35m[K^~~~~~~~~~[m[K
+[2.867s] 
+[2.868s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[2.868s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[2.868s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[2.868s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[2.868s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[2.868s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[2.868s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.868s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.868s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.868s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.868s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.868s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[2.868s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[2.868s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[2.868s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.868s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[2.868s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[2.891s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:41[m[K,
+[2.891s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[2.891s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[2.892s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[2.892s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[2.892s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[2.892s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[2.892s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[2.892s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[2.892s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[2.892s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[2.892s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/se3quat.h:43:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.892s]    43 |       EIGEN_MAKE_ALIGNED_OPERATOR_NEW[01;35m[K;[m[K
+[2.892s]       |                                      [01;35m[K^[m[K
+[2.892s]       |                                      [31m[K-[m[K
+[3.123s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[3.123s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.123s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.123s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.123s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.123s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.124s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.124s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.124s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.124s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.124s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.124s] /home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[3.124s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[3.124s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.124s]    62 |  Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[3.124s]       |                                                       [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.124s] 
+[3.124s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.124s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.124s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.124s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.124s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.124s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.124s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.125s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.125s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.125s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.125s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.125s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.125s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.125s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.125s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.125s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.125s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.140s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[3.140s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.141s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.141s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.141s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.141s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.141s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.141s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.141s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.141s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.141s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.141s] /home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[3.141s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[3.141s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.141s]    62 |  Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[3.141s]       |                                                       [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.141s] 
+[3.141s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.141s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.142s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.142s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.142s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.142s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.142s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.142s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.142s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.142s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.142s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.142s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.142s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.142s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.142s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.142s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.142s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.159s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.160s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.160s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.160s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.160s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.160s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.160s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.160s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.160s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.160s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.160s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.160s] /home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[3.160s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[3.160s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.160s]    59 | ::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[3.161s]       |                                                       [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.161s] 
+[3.161s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.161s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.161s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.161s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.161s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.161s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.161s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.161s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.161s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.161s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.161s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.161s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.161s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.161s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.162s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.162s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.162s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.162s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.162s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.162s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.162s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.162s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.162s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.162s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.162s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.162s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.162s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.162s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.162s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.162s]    60 | ::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[3.162s]       |                                                       [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.163s] 
+[3.163s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.163s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.163s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.163s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.163s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.163s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.163s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.163s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.163s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.163s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.163s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.163s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.163s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.163s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.163s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.163s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.163s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.197s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.197s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.197s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.197s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.197s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.197s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.197s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.197s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.197s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.198s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.198s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.198s] /home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[3.198s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[3.198s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.198s]    59 | ::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[3.198s]       |                                                       [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.198s] 
+[3.198s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.198s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.198s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.198s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.198s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.198s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.198s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.198s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.198s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.198s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.198s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.198s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.198s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.198s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.198s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.198s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.198s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.206s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.206s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.206s]    60 | ::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[3.206s]       |                                                       [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.206s] 
+[3.206s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.206s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.207s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.207s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.207s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.207s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.207s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.207s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.207s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.207s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.207s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.207s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.207s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.207s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.207s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.207s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.240s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.240s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.240s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.240s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.240s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.240s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.240s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.240s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.240s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.240s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.240s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.241s] /home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[3.241s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[3.241s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.241s]    59 | ::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[3.241s]       |                                                       [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.241s] 
+[3.241s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.241s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.241s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.241s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.241s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.241s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.241s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.241s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.241s]    60 | ::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[3.241s]       |                                                       [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.241s] 
+[3.241s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.242s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.242s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.242s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.242s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.242s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.242s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.242s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.242s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.242s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.242s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.242s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.242s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.242s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.242s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.242s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.242s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.364s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[3.364s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.364s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.364s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.364s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.364s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.364s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.364s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.365s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.365s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.365s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.365s] /home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[3.365s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[3.365s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.365s]    62 |  Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[3.365s]       |                                                       [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.365s] 
+[3.365s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.365s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.365s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.365s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.365s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.365s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.365s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.365s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.366s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.366s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.366s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.366s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.366s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.366s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.366s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.366s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.366s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.383s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.383s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.383s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.383s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.383s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.383s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.383s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.383s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.384s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.384s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.384s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.384s] /home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[3.384s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[3.384s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.384s]    59 | ::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[3.384s]       |                                                       [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.384s] 
+[3.384s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.384s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.384s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.384s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.384s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.385s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.385s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.385s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.385s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.385s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.385s]    60 | ::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[3.385s]       |                                                       [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.385s] 
+[3.385s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.385s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.385s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.386s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.386s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.386s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.386s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.386s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.386s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.386s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.386s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.386s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.386s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.386s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.410s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.410s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.411s] /home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[3.411s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[3.411s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.411s]    59 | ::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[3.411s]       |                                                       [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.411s] 
+[3.411s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.411s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.411s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.411s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.411s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.411s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.419s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.419s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.419s]    60 | ::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[3.419s]       |                                                       [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.419s] 
+[3.419s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.419s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[3.419s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[3.420s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.420s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.420s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.093s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/include/Atlas.h:26[m[K,
+[4.093s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[4.093s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.093s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.093s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[4.093s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[4.093s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.093s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:[m[K In member function ‘[01m[Kvirtual bool ORB_SLAM3::Pinhole::matchAndtriangulate(const cv::KeyPoint&, const cv::KeyPoint&, ORB_SLAM3::GeometricCamera*, Sophus::SE3f&, Sophus::SE3f&, float, float, Eigen::Vector3f&)[m[K’:
+[4.093s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:83:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.093s]    83 |         bool matchAndtriangulate([01;35m[Kconst cv::KeyPoint& kp1[m[K, const cv::KeyPoint& kp2, GeometricCamera* pOther,
+[4.093s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.093s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:83:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.093s]    83 | Andtriangulate(const cv::KeyPoint& kp1, [01;35m[Kconst cv::KeyPoint& kp2[m[K, GeometricCamera* pOther,
+[4.093s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.093s] 
+[4.093s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:83:101:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpOther[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.093s]    83 | st cv::KeyPoint& kp1, const cv::KeyPoint& kp2, [01;35m[KGeometricCamera* pOther[m[K,
+[4.093s]       |                                                [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.093s] 
+[4.094s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:84:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.094s]    84 |                                  [01;35m[KSophus::SE3f& Tcw1[m[K, Sophus::SE3f& Tcw2,
+[4.094s]       |                                  [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[4.094s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:84:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.094s]    84 |                                 Sophus::SE3f& Tcw1, [01;35m[KSophus::SE3f& Tcw2[m[K,
+[4.094s]       |                                                     [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[4.094s] 
+[4.094s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:85:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.094s]    85 |                                  [01;35m[Kconst float sigmaLevel1[m[K, const float sigmaLevel2,
+[4.094s]       |                                  [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[4.094s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:85:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.094s]    85 |                        const float sigmaLevel1, [01;35m[Kconst float sigmaLevel2[m[K,
+[4.094s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[4.094s] 
+[4.094s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:86:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx3Dtriangulated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.094s]    86 |                                  [01;35m[KEigen::Vector3f& x3Dtriangulated[m[K) { return false;}
+[4.094s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[4.094s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/include/Atlas.h:27[m[K,
+[4.094s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[4.094s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.094s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.094s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[4.094s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[4.094s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.095s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)[m[K’:
+[4.095s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.095s]   102 |         const float [01;35m[Kprecision[m[K;
+[4.095s]       |                     [01;35m[K^~~~~~~~~[m[K
+[4.095s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.095s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[4.095s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[4.095s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/include/Atlas.h:27[m[K,
+[4.095s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[4.095s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.095s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.095s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[4.095s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[4.095s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.095s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.095s]    47 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {
+[4.095s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.095s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/include/Atlas.h:27[m[K,
+[4.095s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[4.095s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.095s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.095s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[4.095s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[4.095s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.095s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)[m[K’:
+[4.095s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.095s]   102 |         const float [01;35m[Kprecision[m[K;
+[4.095s]       |                     [01;35m[K^~~~~~~~~[m[K
+[4.095s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.095s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[4.095s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[4.095s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:53:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.095s]    53 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),
+[4.095s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.095s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)[m[K’:
+[4.095s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.095s]   102 |         const float [01;35m[Kprecision[m[K;
+[4.095s]       |                     [01;35m[K^~~~~~~~~[m[K
+[4.095s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.096s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[4.096s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[4.096s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:59:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.096s]    59 |         [01;35m[KKannalaBrandt8[m[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {
+[4.096s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.227s] [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:[m[K In member function ‘[01m[Kvoid MonocularSlamNode::GrabImage(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.228s] [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[KCopy[m[K’ was not declared in this scope; did you mean ‘[01m[Kpangolin::Copy[m[K’?
+[4.228s]    31 |     [01;31m[KCopy[m[K the ros image message to cv::Mat.
+[4.228s]       |     [01;31m[K^~~~[m[K
+[4.228s]       |     [32m[Kpangolin::Copy[m[K
+[4.228s] In file included from [01m[K/usr/local/include/pangolin/image/managed_image.h:31[m[K,
+[4.228s]                  from [01m[K/usr/local/include/pangolin/image/typed_image.h:30[m[K,
+[4.228s]                  from [01m[K/usr/local/include/pangolin/image/image_io.h:32[m[K,
+[4.228s]                  from [01m[K/usr/local/include/pangolin/gl/gl.h:32[m[K,
+[4.228s]                  from [01m[K/usr/local/include/pangolin/handler/handler.h:31[m[K,
+[4.228s]                  from [01m[K/usr/local/include/pangolin/display/widgets.h:32[m[K,
+[4.228s]                  from [01m[K/usr/local/include/pangolin/pangolin.h:40[m[K,
+[4.228s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Map.h:27[m[K,
+[4.228s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrameDatabase.h:30[m[K,
+[4.228s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:29[m[K,
+[4.228s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.228s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.228s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.228s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.229s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[4.229s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.hpp:9[m[K,
+[4.229s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:1[m[K:
+[4.229s] [01m[K/usr/local/include/pangolin/image/copy.h:41:34:[m[K [01;36m[Knote: [m[K‘[01m[Kpangolin::Copy[m[K’ declared here
+[4.229s]    41 | typename pangolin::CopyObject<T> [01;36m[KCopy[m[K(const T& obj) {
+[4.229s]       |                                  [01;36m[K^~~~[m[K
+[4.229s] [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/monocular/monocular-slam-node.cpp:37:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kcatch[m[K’
+[4.229s]    37 |     [01;31m[Kcatch[m[K (cv_bridge::Exception& e)
+[4.229s]       |     [01;31m[K^~~~~[m[K
+[8.899s] gmake[2]: *** [CMakeFiles/mono.dir/build.make:90: CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o] Error 1
+[8.899s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/mono.dir/all] Error 2
+[8.899s] gmake: *** [Makefile:146: all] Error 2
+[8.901s] Invoked command in '/home/torben/Dev/orbslam_ros/build/orbslam3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/torben/Dev/orbslam_ros/build/orbslam3 -- -j12 -l12

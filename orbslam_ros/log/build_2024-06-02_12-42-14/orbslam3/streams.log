@@ -1,0 +1,659 @@
+[0.010s] Invoking command in '/home/torben/Dev/orbslam_ros/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/torben/Dev/orbslam_ros/build/orbslam3 -- -j12 -l12
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target stereo-inertial[0m
+[0.055s] [ 25%] Built target rgbd
+[0.056s] [ 50%] Built target mono
+[0.059s] [ 75%] Built target stereo
+[0.074s] [ 83%] [32mBuilding CXX object CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o[0m
+[3.100s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:30[m[K,
+[3.100s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.100s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.100s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.101s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.101s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.101s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.101s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.101s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.101s] [01m[K/home/torben/Dev/ORB_SLAM3/include/ImuTypes.h:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const[m[K’:
+[3.101s] [01m[K/home/torben/Dev/ORB_SLAM3/include/ImuTypes.h:204:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.101s]   204 |         for(int i=0; [01;35m[Ki<mvMeasurements.size()[m[K; i++){
+[3.101s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.157s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.157s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:[m[K At global scope:
+[3.157s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.157s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[3.157s]       |                                                                          [01;35m[K^~~~~~~~~~[m[K
+[3.157s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.157s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.157s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.157s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.157s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.158s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.173s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.173s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.173s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[3.173s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[3.173s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.173s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.173s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.173s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.173s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.173s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.173s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.174s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.174s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[3.174s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[3.174s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.174s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.174s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.174s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.174s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.174s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.206s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:41[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.206s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.206s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/se3quat.h:43:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.206s]    43 |       EIGEN_MAKE_ALIGNED_OPERATOR_NEW[01;35m[K;[m[K
+[3.206s]       |                                      [01;35m[K^[m[K
+[3.206s]       |                                      [31m[K-[m[K
+[3.493s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[3.493s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.493s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.493s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.493s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.493s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.493s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.493s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.493s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.493s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.493s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.494s] /home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[3.494s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[3.494s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.494s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[3.494s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.494s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.494s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.494s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.494s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.494s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.494s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.494s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.494s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.495s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.495s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.495s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.495s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.495s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.495s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.495s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.495s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.495s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.513s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[3.513s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.513s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.513s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.514s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.514s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.514s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.514s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.514s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.514s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.514s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.514s] /home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[3.514s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[3.514s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.514s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[3.514s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.514s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.514s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.515s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.515s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.515s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.515s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.515s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.515s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.515s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.515s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.515s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.515s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.515s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.515s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.515s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.516s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.516s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.535s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.535s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.535s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.536s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.536s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.536s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.536s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.536s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.536s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.536s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.536s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.536s] /home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[3.536s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[3.536s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.536s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[3.537s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.537s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.537s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.537s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.537s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.537s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.537s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.537s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.537s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.537s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.537s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.537s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.537s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.538s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.538s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.538s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.538s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.538s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.538s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.538s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.538s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.538s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.538s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.538s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.538s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.538s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.539s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.539s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.539s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.539s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.539s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[3.539s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.539s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.539s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.539s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.539s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.539s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.539s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.540s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.540s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.540s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.540s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.540s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.540s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.540s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.540s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.540s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.540s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.540s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.592s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.592s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.593s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.593s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.593s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.593s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.593s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.593s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.593s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.593s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.593s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.593s] /home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[3.593s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[3.593s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.594s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[3.594s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.594s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.594s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.594s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.594s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.594s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.594s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.594s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.594s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.594s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.594s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.594s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.595s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.595s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.595s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.595s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.595s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.595s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.605s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.605s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.605s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.605s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.605s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.605s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.605s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.605s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.605s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.605s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.605s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.606s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.606s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[3.606s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.606s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.606s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.606s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.606s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.606s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.606s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.606s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.606s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.606s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.607s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.607s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.607s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.607s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.607s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.607s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.607s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.607s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.650s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.650s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.650s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.650s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.650s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.650s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.650s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.650s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.651s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.651s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.651s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.651s] /home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[3.651s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[3.651s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.651s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[3.651s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.651s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.651s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.651s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.651s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.651s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.652s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.652s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.652s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.652s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.652s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.652s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.652s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.652s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.652s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.652s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.652s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.652s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.653s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.653s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.653s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.653s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.653s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.653s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.653s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.653s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.653s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.653s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.653s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.653s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.653s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[3.654s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.654s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.654s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.654s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.654s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.654s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.654s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.654s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.654s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.654s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.654s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.654s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.655s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.655s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.655s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.655s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.655s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.655s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.824s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[3.824s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.824s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.824s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.824s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.824s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.824s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.824s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.824s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.824s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.824s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.824s] /home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[3.825s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[3.825s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.825s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[3.825s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.825s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.825s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.825s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.825s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.825s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.825s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.825s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.825s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.825s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.825s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.825s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.825s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.825s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.825s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.826s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.826s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.826s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.848s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.849s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.849s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.849s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.849s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.849s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.849s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.849s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.849s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.849s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.849s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.849s] /home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[3.849s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[3.849s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.849s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[3.850s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.850s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.850s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.850s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.850s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.850s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.850s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.850s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.850s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.850s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.850s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.850s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.850s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.850s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.850s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.850s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.850s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.850s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.851s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.851s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.851s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.851s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.851s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.851s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.851s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.851s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.851s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.851s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.851s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.851s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.851s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[3.852s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.852s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.852s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.852s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.852s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.852s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.852s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.852s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.852s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.852s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.852s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.852s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.853s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.853s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.853s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.853s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.853s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.853s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.888s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.888s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.888s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.888s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.889s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.889s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.889s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.889s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.889s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.889s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.889s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.889s] /home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[3.889s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[3.889s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.889s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[3.889s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.890s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.890s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.890s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.890s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.890s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.890s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.890s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.890s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.890s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.890s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.890s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.890s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.891s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.891s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.891s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.891s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.891s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[3.901s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[3.901s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+[3.901s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+[3.901s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.901s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.901s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.901s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.901s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.902s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.902s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.902s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.902s] [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.902s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[3.902s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[3.902s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[3.902s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[3.902s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[3.902s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[3.902s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[3.902s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:28[m[K,
+[3.903s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[3.903s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[3.903s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[3.903s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[3.903s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[3.903s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[3.903s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[3.903s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[3.903s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.903s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[3.903s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.800s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/include/Atlas.h:26[m[K,
+[4.800s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[4.800s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.800s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.800s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[4.800s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[4.800s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[4.801s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:[m[K In member function ‘[01m[Kvirtual bool ORB_SLAM3::Pinhole::matchAndtriangulate(const cv::KeyPoint&, const cv::KeyPoint&, ORB_SLAM3::GeometricCamera*, Sophus::SE3f&, Sophus::SE3f&, float, float, Eigen::Vector3f&)[m[K’:
+[4.801s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:83:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.801s]    83 |         bool matchAndtriangulate([01;35m[Kconst cv::KeyPoint& kp1[m[K, const cv::KeyPoint& kp2, GeometricCamera* pOther,
+[4.801s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.801s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:83:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.801s]    83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, [01;35m[Kconst cv::KeyPoint& kp2[m[K, GeometricCamera* pOther,
+[4.801s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.802s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:83:101:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpOther[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.802s]    83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, const cv::KeyPoint& kp2, [01;35m[KGeometricCamera* pOther[m[K,
+[4.802s]       |                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.802s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:84:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.802s]    84 |                                  [01;35m[KSophus::SE3f& Tcw1[m[K, Sophus::SE3f& Tcw2,
+[4.802s]       |                                  [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[4.802s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:84:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.802s]    84 |                                  Sophus::SE3f& Tcw1, [01;35m[KSophus::SE3f& Tcw2[m[K,
+[4.802s]       |                                                      [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[4.802s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:85:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.802s]    85 |                                  [01;35m[Kconst float sigmaLevel1[m[K, const float sigmaLevel2,
+[4.802s]       |                                  [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[4.803s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:85:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.803s]    85 |                                  const float sigmaLevel1, [01;35m[Kconst float sigmaLevel2[m[K,
+[4.803s]       |                                                           [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[4.803s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:86:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx3Dtriangulated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.803s]    86 |                                  [01;35m[KEigen::Vector3f& x3Dtriangulated[m[K) { return false;}
+[4.803s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[4.803s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/include/Atlas.h:27[m[K,
+[4.803s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[4.803s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.803s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.803s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[4.803s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[4.804s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[4.804s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)[m[K’:
+[4.804s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.804s]   102 |         const float [01;35m[Kprecision[m[K;
+[4.804s]       |                     [01;35m[K^~~~~~~~~[m[K
+[4.804s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.804s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[4.804s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[4.804s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/include/Atlas.h:27[m[K,
+[4.804s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[4.804s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.805s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.805s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[4.805s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[4.805s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[4.805s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.805s]    47 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {
+[4.805s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.805s] In file included from [01m[K/home/torben/Dev/ORB_SLAM3/include/Atlas.h:27[m[K,
+[4.805s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[4.805s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.805s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.806s]                  from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+[4.806s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11[m[K,
+[4.806s]                  from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[4.806s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)[m[K’:
+[4.806s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.806s]   102 |         const float [01;35m[Kprecision[m[K;
+[4.806s]       |                     [01;35m[K^~~~~~~~~[m[K
+[4.806s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.806s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[4.806s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[4.806s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:53:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.806s]    53 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),
+[4.807s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.807s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)[m[K’:
+[4.807s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.807s]   102 |         const float [01;35m[Kprecision[m[K;
+[4.807s]       |                     [01;35m[K^~~~~~~~~[m[K
+[4.807s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.807s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[4.807s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[4.807s] [01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:59:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.807s]    59 |         [01;35m[KKannalaBrandt8[m[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {
+[4.807s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[14.472s] [ 91%] [32m[1mLinking CXX executable stereo-inertial[0m
+[14.774s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.2
+[14.774s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.2
+[14.774s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.2
+[15.261s] [100%] Built target stereo-inertial
+[15.269s] Invoked command in '/home/torben/Dev/orbslam_ros/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/torben/Dev/orbslam_ros/build/orbslam3 -- -j12 -l12
+[15.304s] Invoking command in '/home/torben/Dev/orbslam_ros/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/torben/Dev/orbslam_ros/build/orbslam3
+[15.310s] -- Install configuration: ""
+[15.310s] -- Execute custom install script
+[15.311s] -- Up-to-date symlink: /home/torben/Dev/orbslam_ros/install/orbslam3/lib/orbslam3/mono
+[15.311s] -- Up-to-date symlink: /home/torben/Dev/orbslam_ros/install/orbslam3/lib/orbslam3/rgbd
+[15.311s] -- Up-to-date symlink: /home/torben/Dev/orbslam_ros/install/orbslam3/lib/orbslam3/stereo
+[15.311s] -- Up-to-date symlink: /home/torben/Dev/orbslam_ros/install/orbslam3/lib/orbslam3/stereo-inertial
+[15.311s] -- Up-to-date symlink: /home/torben/Dev/orbslam_ros/install/orbslam3/share/ament_index/resource_index/package_run_dependencies/orbslam3
+[15.311s] -- Up-to-date symlink: /home/torben/Dev/orbslam_ros/install/orbslam3/share/ament_index/resource_index/parent_prefix_path/orbslam3
+[15.311s] -- Up-to-date symlink: /home/torben/Dev/orbslam_ros/install/orbslam3/share/orbslam3/environment/ament_prefix_path.sh
+[15.311s] -- Up-to-date symlink: /home/torben/Dev/orbslam_ros/install/orbslam3/share/orbslam3/environment/ament_prefix_path.dsv
+[15.312s] -- Up-to-date symlink: /home/torben/Dev/orbslam_ros/install/orbslam3/share/orbslam3/environment/path.sh
+[15.312s] -- Up-to-date symlink: /home/torben/Dev/orbslam_ros/install/orbslam3/share/orbslam3/environment/path.dsv
+[15.312s] -- Up-to-date symlink: /home/torben/Dev/orbslam_ros/install/orbslam3/share/orbslam3/local_setup.bash
+[15.312s] -- Up-to-date symlink: /home/torben/Dev/orbslam_ros/install/orbslam3/share/orbslam3/local_setup.sh
+[15.312s] -- Up-to-date symlink: /home/torben/Dev/orbslam_ros/install/orbslam3/share/orbslam3/local_setup.zsh
+[15.312s] -- Up-to-date symlink: /home/torben/Dev/orbslam_ros/install/orbslam3/share/orbslam3/local_setup.dsv
+[15.312s] -- Symlinking: /home/torben/Dev/orbslam_ros/install/orbslam3/share/orbslam3/package.dsv
+[15.319s] -- Up-to-date symlink: /home/torben/Dev/orbslam_ros/install/orbslam3/share/ament_index/resource_index/packages/orbslam3
+[15.319s] -- Up-to-date symlink: /home/torben/Dev/orbslam_ros/install/orbslam3/share/orbslam3/cmake/orbslam3Config.cmake
+[15.319s] -- Up-to-date symlink: /home/torben/Dev/orbslam_ros/install/orbslam3/share/orbslam3/cmake/orbslam3Config-version.cmake
+[15.319s] -- Up-to-date symlink: /home/torben/Dev/orbslam_ros/install/orbslam3/share/orbslam3/package.xml
+[15.321s] Invoked command in '/home/torben/Dev/orbslam_ros/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/torben/Dev/orbslam_ros/build/orbslam3

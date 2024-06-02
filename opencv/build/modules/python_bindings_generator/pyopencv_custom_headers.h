@@ -1,0 +1,11 @@
+//user-defined headers
+#include "/home/torben/Dev/opencv/modules/core/misc/python/pyopencv_async.hpp"
+#include "/home/torben/Dev/opencv/modules/core/misc/python/pyopencv_cuda.hpp"
+#include "/home/torben/Dev/opencv/modules/core/misc/python/pyopencv_umat.hpp"
+#include "/home/torben/Dev/opencv/modules/flann/misc/python/pyopencv_flann.hpp"
+#include "/home/torben/Dev/opencv/modules/ml/misc/python/pyopencv_ml.hpp"
+#include "/home/torben/Dev/opencv/modules/dnn/misc/python/pyopencv_dnn.hpp"
+#include "/home/torben/Dev/opencv/modules/features2d/misc/python/pyopencv_features2d.hpp"
+#include "/home/torben/Dev/opencv/modules/videoio/misc/python/pyopencv_videoio.hpp"
+#include "/home/torben/Dev/opencv/modules/objdetect/misc/python/pyopencv_objdetect.hpp"
+#include "/home/torben/Dev/opencv/modules/stitching/misc/python/pyopencv_stitching.hpp"
