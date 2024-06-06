@@ -38,6 +38,7 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd-slam-node.cpp.o: /home/torben/Dev/orbslam_ros/
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -143,8 +144,11 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd-slam-node.cpp.o: /home/torben/Dev/orbslam_ros/
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -153,6 +157,8 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd-slam-node.cpp.o: /home/torben/Dev/orbslam_ros/
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -248,6 +254,7 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd-slam-node.cpp.o: /home/torben/Dev/orbslam_ros/
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
@@ -321,6 +328,8 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd-slam-node.cpp.o: /home/torben/Dev/orbslam_ros/
   /usr/include/c++/11/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
   /opt/ros/humble/include/rcutils/rcutils/time.h \
   /opt/ros/humble/include/rcutils/rcutils/types.h \
@@ -1727,6 +1736,7 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -1832,8 +1842,11 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -1842,6 +1855,8 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1937,6 +1952,7 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
@@ -2010,6 +2026,8 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
   /usr/include/c++/11/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
   /opt/ros/humble/include/rcutils/rcutils/time.h \
   /opt/ros/humble/include/rcutils/rcutils/types.h \
@@ -3434,8 +3452,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/boost/current_function.hpp:
 
-/usr/include/boost/preprocessor/iterate.hpp:
-
 /usr/include/boost/function.hpp:
 
 /usr/include/boost/algorithm/string/detail/find_iterator.hpp:
@@ -3800,8 +3816,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/boost/mpl/aux_/template_arity.hpp:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
-
 /usr/include/boost/mpl/aux_/config/bcc.hpp:
 
 /usr/include/boost/mpl/aux_/has_type.hpp:
@@ -4090,21 +4104,17 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/eigen3/Eigen/src/Core/functors/StlFunctors.h:
 
-/opt/ros/humble/include/rmw/rmw/ret_types.h:
+/usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
 
-/usr/include/boost/type_traits/is_function.hpp:
+/usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
 
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
+/usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
 
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
+/usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
 
-/usr/include/boost/algorithm/string/detail/finder.hpp:
+/usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
 
-/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp:
-
-/usr/include/boost/preprocessor/facilities/identity.hpp:
+/usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h:
 
 /usr/include/c++/11/tr1/exp_integral.tcc:
 
@@ -4117,8 +4127,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp:
 
@@ -4282,10 +4290,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
 
-/usr/include/boost/type_traits/has_minus_assign.hpp:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
-
 /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h:
 
 /usr/include/wctype.h:
@@ -4316,6 +4320,8 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
+
 /usr/include/boost/type_traits/is_const.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
@@ -4330,9 +4336,9 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
 /usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
 
@@ -4402,10 +4408,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /opt/ros/humble/include/rcl/rcl/service.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
-
-/opt/ros/humble/include/rcl/rcl/domain_id.h:
-
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:
 
 /opt/ros/humble/include/rcl/rcl/node.h:
@@ -4433,6 +4435,8 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 /usr/include/eigen3/Eigen/src/Core/DenseStorage.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
 
@@ -4522,6 +4526,14 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/local/include/opencv4/opencv2/core/base.hpp:
 
+/usr/include/boost/type_traits/has_minus_assign.hpp:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
 /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
 
 /usr/include/boost/function/function_fwd.hpp:
@@ -4533,6 +4545,10 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp:
 
 /opt/ros/humble/include/rcl/rcl/macros.h:
+
+/opt/ros/humble/include/rmw/rmw/ret_types.h:
+
+/usr/include/boost/type_traits/is_function.hpp:
 
 /opt/ros/humble/include/rmw/rmw/visibility_control.h:
 
@@ -4586,10 +4602,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/boost/type_traits/is_rvalue_reference.hpp:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
-
 /usr/include/c++/11/bits/stl_set.h:
 
 /usr/include/eigen3/Eigen/src/Householder/Householder.h:
@@ -4601,16 +4613,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
 
 /usr/include/c++/11/atomic:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
-
-/usr/include/c++/11/bitset:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
 
 /usr/include/c++/11/bits/std_mutex.h:
 
@@ -4630,13 +4632,33 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
-/usr/include/eigen3/Eigen/src/Geometry/Transform.h:
+/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
 
-/usr/include/boost/mpl/aux_/adl_barrier.hpp:
+/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/formatstring.hpp:
+
+/usr/include/boost/mpl/aux_/config/integral.hpp:
+
+/usr/include/c++/11/bits/align.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
+
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/opt/ros/humble/include/rmw/rmw/serialized_message.h:
+
+/usr/include/boost/core/use_default.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/VectorBlock.h:
+
+/usr/include/c++/11/memory:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/include/c++/11/chrono:
 
 /usr/include/boost/mpl/print.hpp:
 
@@ -4653,10 +4675,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 /usr/include/c++/11/bits/shared_ptr_base.h:
 
 /usr/include/c++/11/bits/basic_string.h:
-
-/usr/include/c++/11/backward/binders.h:
-
-/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
 
@@ -4715,12 +4733,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp:
 
 /usr/local/include/opencv4/opencv2/opencv.hpp:
-
-/usr/include/boost/throw_exception.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/local/include/opencv4/opencv2/core/saturate.hpp:
 
 /opt/ros/humble/include/rcl/rcl/types.h:
 
@@ -4816,6 +4828,12 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
+/usr/include/c++/11/bits/codecvt.h:
+
+/opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
+
+/usr/include/linux/close_range.h:
+
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
 /usr/include/wchar.h:
@@ -4834,15 +4852,15 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
-
-/opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
-
 /usr/include/c++/11/tuple:
 
 /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/c++/11/debug/assertions.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /home/torben/Dev/ORB_SLAM3/include/MapPoint.h:
 
@@ -4872,11 +4890,15 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/c++/11/bits/postypes.h:
 
 /usr/local/include/opencv4/opencv2/flann/dist.h:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/c++/11/cstdint:
 
@@ -4889,10 +4911,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 /usr/include/boost/type_traits/add_const.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp:
-
-/usr/include/c++/11/bits/shared_ptr.h:
-
-/usr/include/boost/mpl/aux_/msvc_eti_base.hpp:
 
 /opt/ros/humble/include/rcl/rcl/node_options.h:
 
@@ -4916,23 +4934,19 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/local/include/opencv4/opencv2/ml.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+/usr/include/c++/11/backward/binders.h:
 
-/usr/include/c++/11/debug/assertions.h:
+/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:
 
-/usr/include/c++/11/bits/codecvt.h:
+/usr/include/boost/throw_exception.hpp:
 
-/opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
+/usr/include/x86_64-linux-gnu/bits/select.h:
 
-/usr/include/linux/close_range.h:
+/usr/local/include/opencv4/opencv2/core/saturate.hpp:
 
 /usr/include/boost/type_traits/add_volatile.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:
-
-/usr/include/c++/11/tr1/poly_hermite.tcc:
-
-/usr/include/c++/11/bits/memoryfwd.h:
 
 /usr/include/c++/11/bits/stl_function.h:
 
@@ -5008,7 +5022,9 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/stdc-predef.h:
 
-/usr/include/c++/11/cwchar:
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
@@ -5028,11 +5044,19 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/c++/11/bits/nested_exception.h:
 
+/usr/include/boost/preprocessor/iterate.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
 /usr/include/eigen3/Eigen/src/Core/SolveTriangular.h:
 
 /usr/include/c++/11/bits/functexcept.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
 
@@ -5106,9 +5130,11 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
 
-/usr/include/c++/11/bits/stl_construct.h:
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
-/usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp:
+/usr/include/boost/type_traits/add_reference.hpp:
+
+/usr/local/include/opencv4/opencv2/dnn/layer.hpp:
 
 /usr/include/c++/11/iterator:
 
@@ -5186,11 +5212,31 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/boost/preprocessor/control/if.hpp:
 
+/usr/include/boost/mpl/aux_/msvc_eti_base.hpp:
+
+/usr/include/c++/11/bits/shared_ptr.h:
+
+/usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp:
+
+/usr/include/c++/11/bits/stl_construct.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+
+/usr/include/eigen3/Eigen/src/Geometry/Transform.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp:
+
+/usr/include/boost/mpl/aux_/adl_barrier.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
 /usr/local/include/pangolin/var/varextra.h:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
+
+/usr/include/c++/11/numeric:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp:
 
@@ -5238,9 +5284,19 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
 
+/usr/include/c++/11/cwchar:
+
+/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
+
+/opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
 /usr/include/eigen3/Eigen/src/LU/InverseImpl.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
+
+/usr/include/c++/11/cwctype:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
 
@@ -5254,11 +5310,21 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
-/usr/include/c++/11/chrono:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
-
 /usr/include/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/boost/type_traits/enable_if.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp:
+
+/usr/include/c++/11/bits/this_thread_sleep.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
+
+/opt/ros/humble/include/rmw/rmw/event.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/boost/serialization/config.hpp:
 
@@ -5356,8 +5422,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
 
-/usr/include/c++/11/cwctype:
-
 /usr/local/include/pangolin/windowing/handler_enums.h:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
@@ -5367,14 +5431,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 /opt/ros/humble/include/rcl/rcl/log_level.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
-
-/usr/include/c++/11/bits/this_thread_sleep.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
-
-/opt/ros/humble/include/rmw/rmw/event.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/c++/11/istream:
 
@@ -5461,20 +5517,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
 /usr/include/c++/11/vector:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
-
-/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/formatstring.hpp:
-
-/usr/include/boost/mpl/aux_/config/integral.hpp:
-
-/usr/include/c++/11/bits/align.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
@@ -5602,25 +5644,47 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
+/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
+
+/opt/ros/humble/include/rcl/rcl/domain_id.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
 /opt/ros/humble/include/rmw/rmw/macros.h:
 
 /home/torben/Dev/ORB_SLAM3/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+/usr/include/boost/preprocessor/facilities/identity.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+/usr/include/c++/11/bits/memoryfwd.h:
 
-/opt/ros/humble/include/rmw/rmw/serialized_message.h:
+/usr/include/c++/11/tr1/poly_hermite.tcc:
 
-/usr/include/boost/core/use_default.hpp:
+/usr/include/boost/algorithm/string/detail/finder.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/VectorBlock.h:
+/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
 
-/usr/include/c++/11/memory:
+/opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp:
 
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
+
+/usr/include/c++/11/bitset:
+
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
 
 /usr/include/c++/11/pstl/glue_numeric_defs.h:
 
@@ -5731,8 +5795,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
 
 /usr/include/boost/mpl/or.hpp:
 
@@ -5880,9 +5942,9 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
 
-/usr/include/c++/11/tr1/riemann_zeta.tcc:
-
 /usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp:
+
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
 
 /usr/include/limits.h:
 
@@ -5905,10 +5967,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp:
 
@@ -5958,6 +6016,10 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/boost/mpl/assert.hpp:
 
+/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
+
+/usr/local/include/opencv4/opencv2/flann/kdtree_single_index.h:
+
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
 /opt/ros/humble/include/message_filters/message_filters/signal9.h:
@@ -5973,10 +6035,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp:
-
-/usr/include/boost/type_traits/enable_if.hpp:
-
-/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp:
 
 /opt/ros/humble/include/tracetools/tracetools/config.h:
 
@@ -6082,17 +6140,15 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/boost/preprocessor/punctuation/comma.hpp:
 
-/usr/include/c++/11/limits:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
+
+/usr/include/c++/11/limits:
 
 /opt/ros/humble/include/message_filters/message_filters/message_traits.h:
 
 /usr/local/include/opencv4/opencv2/flann/defines.h:
 
 /usr/local/include/opencv4/opencv2/flann/config.h:
-
-/usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
 
 /opt/ros/humble/include/message_filters/message_filters/parameter_adapter.h:
 
@@ -6142,8 +6198,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/boost/type_traits/integral_constant.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
-
 /usr/include/boost/type_traits/intrinsics.hpp:
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
@@ -6170,11 +6224,11 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/boost/type_traits/has_nothrow_constructor.hpp:
 
-/usr/include/c++/11/tr1/modified_bessel_func.tcc:
-
 /usr/include/c++/11/bits/ostream.tcc:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp:
+
+/usr/include/c++/11/tr1/modified_bessel_func.tcc:
 
 /usr/include/boost/type_traits/has_nothrow_copy.hpp:
 
@@ -6285,8 +6339,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 /usr/include/boost/serialization/split_member.hpp:
 
 /usr/include/boost/preprocessor/punctuation/comma_if.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
 
 /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h:
 
@@ -6474,8 +6526,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/boost/serialization/collections_save_imp.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h:
-
 /usr/include/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp:
 
 /usr/include/boost/serialization/version.hpp:
@@ -6524,9 +6574,9 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:
 
-/usr/include/c++/11/tr1/poly_laguerre.tcc:
-
 /usr/include/c++/11/array:
+
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
 
 /home/torben/Dev/ORB_SLAM3/Thirdparty/DBoW2/DBoW2/FeatureVector.h:
 
@@ -6537,6 +6587,8 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 /home/torben/Dev/ORB_SLAM3/Thirdparty/DBoW2/DUtils/Random.h:
 
 /usr/include/boost/preprocessor/repetition/repeat_from_to.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /home/torben/Dev/ORB_SLAM3/include/ORBextractor.h:
 
@@ -6559,10 +6611,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 /usr/local/include/opencv4/opencv2/core/async.hpp:
 
 /usr/local/include/opencv4/opencv2/dnn/dnn.hpp:
-
-/usr/include/boost/type_traits/add_reference.hpp:
-
-/usr/local/include/opencv4/opencv2/dnn/layer.hpp:
 
 /usr/local/include/pangolin/image/typed_image.h:
 
@@ -6602,10 +6650,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:
 
-/usr/local/include/opencv4/opencv2/flann/kdtree_single_index.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
-
 /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h:
 
 /usr/include/boost/mpl/aux_/config/msvc.hpp:
@@ -6635,8 +6679,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 /usr/local/include/opencv4/opencv2/stitching/detail/matchers.hpp:
 
 /usr/local/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
 
 /usr/local/include/opencv4/opencv2/stitching/detail/util.hpp:
 
@@ -6682,10 +6724,6 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h:
 
-/usr/include/c++/11/numeric:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
-
 /usr/include/endian.h:
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:
@@ -6693,5 +6731,3 @@ CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: /home/torben/Dev/orbslam_ros/src/orbsla
 /usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:

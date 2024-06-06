@@ -1,0 +1,1360 @@
+[35m[1mConsolidate compiler generated dependencies of target stereo-inertial[0m
+[ 25%] Built target mono
+[ 50%] Built target rgbd
+[ 75%] Built target stereo
+[ 83%] [32mBuilding CXX object CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o[0m
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:337:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  337 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  289 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+  313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:368:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+  368 |     [01;36m[KPCL_ADD_RGB[m[K;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:318:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  318 |     [01;35m[K{[m[K \
+      |     [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY[m[K’
+  411 |     [01;36m[KPCL_ADD_INTENSITY[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:22:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  411 |     PCL_ADD_INTENSITY[01;35m[K;[m[K
+      |                      [01;35m[K^[m[K
+      |                      [31m[K-[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:324:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     [01;35m[K{[m[K \
+      |     [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY_8U[m[K’
+  437 |     [01;36m[KPCL_ADD_INTENSITY_8U[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:25:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  437 |     PCL_ADD_INTENSITY_8U[01;35m[K;[m[K
+      |                         [01;35m[K^[m[K
+      |                         [31m[K-[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:330:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  330 |     [01;35m[K{[m[K \
+      |     [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY_32U[m[K’
+  469 |     [01;36m[KPCL_ADD_INTENSITY_32U[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  469 |     PCL_ADD_INTENSITY_32U[01;35m[K;[m[K
+      |                          [01;35m[K^[m[K
+      |                          [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:497:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  497 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:501:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  501 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:533:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  533 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:573:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  573 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  289 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+  313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:574:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+  574 |     [01;36m[KPCL_ADD_RGB[m[K;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:629:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  629 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  289 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+  313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:630:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+  630 |     [01;36m[KPCL_ADD_RGB[m[K;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:636:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  636 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  289 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+  313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:637:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+  637 |     [01;36m[KPCL_ADD_RGB[m[K;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:741:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  741 |     [01;36m[KPCL_ADD_POINT4D[m[K; // this adds the members x,y,z
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:745:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  745 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:782:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  782 |     [01;36m[KPCL_ADD_POINT4D[m[K;    // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:786:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  786 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:867:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  867 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:871:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  871 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:883:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+  883 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:887:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  887 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:924:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+  924 |     [01;36m[KPCL_ADD_NORMAL4D[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:955:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  955 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:956:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+  956 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:960:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  960 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1001:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1001 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1002:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+ 1002 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  289 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+ 1007 |         [01;36m[KPCL_ADD_UNION_RGB[m[K;
+      |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1007 |         PCL_ADD_UNION_RGB[01;35m[K;[m[K
+      |                          [01;35m[K^[m[K
+      |                          [31m[K-[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1006:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1006 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1085:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1085 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1086:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+ 1086 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1090:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1090 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1135:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1135 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1136:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+ 1136 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1140:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1140 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1187:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1187 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1191:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1191 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1226:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1226 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1230:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1230 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1326:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1326 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1519:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1519 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1738:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1738 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1765:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1765 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1818:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1818 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1819:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+ 1819 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  289 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+ 1824 |         [01;36m[KPCL_ADD_UNION_RGB[m[K;
+      |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1824 |         PCL_ADD_UNION_RGB[01;35m[K;[m[K
+      |                          [01;35m[K^[m[K
+      |                          [31m[K-[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1823:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1823 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/copy_point.hpp:40[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/copy_point.h:58[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/impl/io.hpp:45[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:538[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:789[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1867:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1867 |     [01;36m[KPCL_ADD_POINT4D[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:30[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/home/torben/Dev/ORB_SLAM3/include/ImuTypes.h:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const[m[K’:
+[01m[K/home/torben/Dev/ORB_SLAM3/include/ImuTypes.h:204:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  204 |         for(int i=0; [01;35m[Ki<mvMeasurements.size()[m[K; i++){
+      |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:[m[K At global scope:
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+      |                                                                          [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+      |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+      |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:41[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/se3quat.h:43:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   43 |       EIGEN_MAKE_ALIGNED_OPERATOR_NEW[01;35m[K;[m[K
+      |                                      [01;35m[K^[m[K
+      |                                      [31m[K-[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+      |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+      |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+      |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+      |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:12[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/include/Atlas.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:[m[K In member function ‘[01m[Kvirtual bool ORB_SLAM3::Pinhole::matchAndtriangulate(const cv::KeyPoint&, const cv::KeyPoint&, ORB_SLAM3::GeometricCamera*, Sophus::SE3f&, Sophus::SE3f&, float, float, Eigen::Vector3f&)[m[K’:
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:83:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   83 |         bool matchAndtriangulate([01;35m[Kconst cv::KeyPoint& kp1[m[K, const cv::KeyPoint& kp2, GeometricCamera* pOther,
+      |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:83:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, [01;35m[Kconst cv::KeyPoint& kp2[m[K, GeometricCamera* pOther,
+      |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:83:101:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpOther[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   83 | ol matchAndtriangulate(const cv::KeyPoint& kp1, const cv::KeyPoint& kp2, [01;35m[KGeometricCamera* pOther[m[K,
+      |                                                                          [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:84:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   84 |                                  [01;35m[KSophus::SE3f& Tcw1[m[K, Sophus::SE3f& Tcw2,
+      |                                  [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:84:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   84 |                                  Sophus::SE3f& Tcw1, [01;35m[KSophus::SE3f& Tcw2[m[K,
+      |                                                      [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:85:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   85 |                                  [01;35m[Kconst float sigmaLevel1[m[K, const float sigmaLevel2,
+      |                                  [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:85:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   85 |                                  const float sigmaLevel1, [01;35m[Kconst float sigmaLevel2[m[K,
+      |                                                           [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/Pinhole.h:86:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx3Dtriangulated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   86 |                                  [01;35m[KEigen::Vector3f& x3Dtriangulated[m[K) { return false;}
+      |                                  [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/include/Atlas.h:27[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)[m[K’:
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  102 |         const float [01;35m[Kprecision[m[K;
+      |                     [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+      |                          [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/include/Atlas.h:27[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   47 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/torben/Dev/ORB_SLAM3/include/Atlas.h:27[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/torben/Dev/ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:18[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)[m[K’:
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  102 |         const float [01;35m[Kprecision[m[K;
+      |                     [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+      |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:53:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   53 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)[m[K’:
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  102 |         const float [01;35m[Kprecision[m[K;
+      |                     [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+      |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/torben/Dev/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:59:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   59 |         [01;35m[KKannalaBrandt8[m[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:[m[K In member function ‘[01m[Kvoid StereoInertialNode::Publish()[m[K’:
+[01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:270:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::MapPoint*>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  270 |     for (int i = 0; [01;35m[Ki < pActiveMapPoints.size()[m[K; i++)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:289:48:[m[K [01;31m[Kerror: [m[Kclass template argument deduction failed:
+  289 |     std::vector translation = pose.translation([01;31m[K)[m[K;
+      |                                                [01;31m[K^[m[K
+[01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:289:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvector(Sophus::SE3<float>::TranslationMember&)[m[K’
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:4[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:1876:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _InputIterator, class _ValT, class _Allocator, class, class> std::vector(_InputIterator, _InputIterator, _Allocator)-> std::vector<_ValT, _Allocator>[m[K’
+ 1876 |     [01;36m[Kvector[m[K(_InputIterator, _InputIterator, _Allocator = _Allocator())
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:1876:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:289:48:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+  289 |     std::vector translation = pose.translation([01;36m[K)[m[K;
+      |                                                [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:4[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:389:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> vector(std::vector<_Tp, _Alloc>)-> std::vector<_Tp, _Alloc>[m[K’
+  389 |     class [01;36m[Kvector[m[K : protected _Vector_base<_Tp, _Alloc>
+      |           [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:389:11:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:289:48:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Matrix<float, 3, 1>[m[K’ is not derived from ‘[01m[Kstd::vector<_Tp, _Alloc>[m[K’
+  289 |     std::vector translation = pose.translation([01;36m[K)[m[K;
+      |                                                [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:4[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:487:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> vector()-> std::vector<_Tp, _Alloc>[m[K’
+  487 |       [01;36m[Kvector[m[K() = default;
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:487:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:289:48:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+  289 |     std::vector translation = pose.translation([01;36m[K)[m[K;
+      |                                                [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:4[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:522:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> vector(std::size_t, const _Tp&, const _Alloc&)-> std::vector<_Tp, _Alloc>[m[K’
+  522 |       [01;36m[Kvector[m[K(size_type __n, const value_type& __value,
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:522:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:289:48:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+  289 |     std::vector translation = pose.translation([01;36m[K)[m[K;
+      |                                                [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:4[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:553:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> vector(const std::vector<_Tp, _Alloc>&)-> std::vector<_Tp, _Alloc>[m[K’
+  553 |       [01;36m[Kvector[m[K(const vector& __x)
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:553:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:289:48:[m[K [01;36m[Knote: [m[K  ‘[01m[KSophus::SE3<float>::TranslationMember[m[K’ {aka ‘[01m[KEigen::Matrix<float, 3, 1>[m[K’} is not derived from ‘[01m[Kconst std::vector<_Tp, _Alloc>[m[K’
+  289 |     std::vector translation = pose.translation([01;36m[K)[m[K;
+      |                                                [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:4[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:572:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> vector(std::vector<_Tp, _Alloc>&&)-> std::vector<_Tp, _Alloc>[m[K’
+  572 |       [01;36m[Kvector[m[K(vector&&) noexcept = default;
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:572:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:289:48:[m[K [01;36m[Knote: [m[K  ‘[01m[KSophus::SE3<float>::TranslationMember[m[K’ {aka ‘[01m[KEigen::Matrix<float, 3, 1>[m[K’} is not derived from ‘[01m[Kstd::vector<_Tp, _Alloc>[m[K’
+  289 |     std::vector translation = pose.translation([01;36m[K)[m[K;
+      |                                                [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:4[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:575:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> vector(const std::vector<_Tp, _Alloc>&, const _Alloc&)-> std::vector<_Tp, _Alloc>[m[K’
+  575 |       [01;36m[Kvector[m[K(const vector& __x, const allocator_type& __a)
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:575:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:289:48:[m[K [01;36m[Knote: [m[K  ‘[01m[KSophus::SE3<float>::TranslationMember[m[K’ {aka ‘[01m[KEigen::Matrix<float, 3, 1>[m[K’} is not derived from ‘[01m[Kconst std::vector<_Tp, _Alloc>[m[K’
+  289 |     std::vector translation = pose.translation([01;36m[K)[m[K;
+      |                                                [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:4[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:585:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> vector(std::vector<_Tp, _Alloc>&&, const _Alloc&, std::true_type)-> std::vector<_Tp, _Alloc>[m[K’
+  585 |       [01;36m[Kvector[m[K(vector&& __rv, const allocator_type& __m, true_type) noexcept
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:585:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:289:48:[m[K [01;36m[Knote: [m[K  ‘[01m[KSophus::SE3<float>::TranslationMember[m[K’ {aka ‘[01m[KEigen::Matrix<float, 3, 1>[m[K’} is not derived from ‘[01m[Kstd::vector<_Tp, _Alloc>[m[K’
+  289 |     std::vector translation = pose.translation([01;36m[K)[m[K;
+      |                                                [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:4[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:589:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> vector(std::vector<_Tp, _Alloc>&&, const _Alloc&, std::false_type)-> std::vector<_Tp, _Alloc>[m[K’
+  589 |       [01;36m[Kvector[m[K(vector&& __rv, const allocator_type& __m, false_type)
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:589:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:289:48:[m[K [01;36m[Knote: [m[K  ‘[01m[KSophus::SE3<float>::TranslationMember[m[K’ {aka ‘[01m[KEigen::Matrix<float, 3, 1>[m[K’} is not derived from ‘[01m[Kstd::vector<_Tp, _Alloc>[m[K’
+  289 |     std::vector translation = pose.translation([01;36m[K)[m[K;
+      |                                                [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:4[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:607:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> vector(std::vector<_Tp, _Alloc>&&, const _Alloc&)-> std::vector<_Tp, _Alloc>[m[K’
+  607 |       [01;36m[Kvector[m[K(vector&& __rv, const allocator_type& __m)
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:607:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:289:48:[m[K [01;36m[Knote: [m[K  ‘[01m[KSophus::SE3<float>::TranslationMember[m[K’ {aka ‘[01m[KEigen::Matrix<float, 3, 1>[m[K’} is not derived from ‘[01m[Kstd::vector<_Tp, _Alloc>[m[K’
+  289 |     std::vector translation = pose.translation([01;36m[K)[m[K;
+      |                                                [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:4[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:625:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> vector(std::initializer_list<_Tp>, const _Alloc&)-> std::vector<_Tp, _Alloc>[m[K’
+  625 |       [01;36m[Kvector[m[K(initializer_list<value_type> __l,
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:625:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:289:48:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Matrix<float, 3, 1>[m[K’ is not derived from ‘[01m[Kstd::initializer_list<_Tp>[m[K’
+  289 |     std::vector translation = pose.translation([01;36m[K)[m[K;
+      |                                                [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:4[m[K,
+                 from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:653:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc, class _InputIterator, class> vector(_InputIterator, _InputIterator, const _Alloc&)-> std::vector<_Tp, _Alloc>[m[K’
+  653 |         [01;36m[Kvector[m[K(_InputIterator __first, _InputIterator __last,
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:653:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:289:48:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+  289 |     std::vector translation = pose.translation([01;36m[K)[m[K;
+      |                                                [01;36m[K^[m[K
+[01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:289:48:[m[K [01;36m[Knote: [m[Kexplicit deduction guides not considered for copy-initialization
+gmake[2]: *** [CMakeFiles/stereo-inertial.dir/build.make:90: CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/stereo-inertial.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

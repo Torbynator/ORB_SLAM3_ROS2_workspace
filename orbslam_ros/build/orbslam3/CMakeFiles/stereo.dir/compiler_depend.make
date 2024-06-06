@@ -52,6 +52,7 @@ CMakeFiles/stereo.dir/src/stereo/stereo-slam-node.cpp.o: /home/torben/Dev/orbsla
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
@@ -131,6 +132,7 @@ CMakeFiles/stereo.dir/src/stereo/stereo-slam-node.cpp.o: /home/torben/Dev/orbsla
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/allocated_ptr.h \
@@ -214,8 +216,11 @@ CMakeFiles/stereo.dir/src/stereo/stereo-slam-node.cpp.o: /home/torben/Dev/orbsla
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -224,6 +229,8 @@ CMakeFiles/stereo.dir/src/stereo/stereo-slam-node.cpp.o: /home/torben/Dev/orbsla
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/std_mutex.h \
@@ -316,6 +323,8 @@ CMakeFiles/stereo.dir/src/stereo/stereo-slam-node.cpp.o: /home/torben/Dev/orbsla
   /usr/include/c++/11/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
   /opt/ros/humble/include/rcutils/rcutils/time.h \
   /opt/ros/humble/include/rcutils/rcutils/types.h \
@@ -1727,6 +1736,7 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -1832,8 +1842,11 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -1842,6 +1855,8 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1937,6 +1952,7 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
@@ -2010,6 +2026,8 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
   /usr/include/c++/11/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
   /opt/ros/humble/include/rcutils/rcutils/time.h \
   /opt/ros/humble/include/rcutils/rcutils/types.h \
@@ -3432,8 +3450,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/boost/current_function.hpp:
 
-/usr/include/boost/preprocessor/iterate.hpp:
-
 /usr/include/boost/function.hpp:
 
 /usr/include/boost/algorithm/string/detail/find_iterator.hpp:
@@ -3798,8 +3814,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/boost/mpl/aux_/template_arity.hpp:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
-
 /usr/include/boost/mpl/aux_/config/bcc.hpp:
 
 /usr/include/boost/mpl/aux_/has_type.hpp:
@@ -4088,21 +4102,17 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/eigen3/Eigen/src/Core/functors/StlFunctors.h:
 
-/usr/include/linux/close_range.h:
+/usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
 
-/usr/local/include/pangolin/var/varextra.h:
+/usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
 
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:
+/usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
 
-/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp:
+/usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
 
-/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:
+/usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
 
-/opt/ros/humble/include/rmw/rmw/ret_types.h:
-
-/usr/include/boost/type_traits/is_function.hpp:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
+/usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
 
@@ -4125,8 +4135,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp:
 
@@ -4290,10 +4298,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
 
-/usr/include/boost/type_traits/has_minus_assign.hpp:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
-
 /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h:
 
 /usr/include/wctype.h:
@@ -4410,10 +4414,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /opt/ros/humble/include/rcl/rcl/service.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
-
-/opt/ros/humble/include/rcl/rcl/domain_id.h:
-
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:
 
 /opt/ros/humble/include/rcl/rcl/node.h:
@@ -4443,6 +4443,8 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
 
 /usr/include/boost/preprocessor/seq/enum.hpp:
 
@@ -4520,8 +4522,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /opt/ros/humble/include/rcutils/rcutils/types.h:
 
-/usr/include/boost/mpl/apply_wrap.hpp:
-
 /usr/local/include/pangolin/gl/glsl.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/time.h:
@@ -4531,6 +4531,14 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 /opt/ros/humble/include/rcutils/rcutils/snprintf.h:
 
 /usr/local/include/opencv4/opencv2/core/base.hpp:
+
+/usr/include/boost/type_traits/has_minus_assign.hpp:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 
 /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
 
@@ -4547,6 +4555,10 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp:
 
 /opt/ros/humble/include/rcl/rcl/macros.h:
+
+/opt/ros/humble/include/rmw/rmw/ret_types.h:
+
+/usr/include/boost/type_traits/is_function.hpp:
 
 /opt/ros/humble/include/rmw/rmw/visibility_control.h:
 
@@ -4644,15 +4656,27 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/c++/11/bits/vector.tcc:
 
+/usr/include/c++/11/unordered_map:
+
+/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
+
+/usr/include/boost/algorithm/string/std/list_traits.hpp:
+
+/usr/include/boost/mpl/bind_fwd.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:
+
+/usr/include/c++/11/vector:
+
+/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
+
+/usr/include/boost/type_traits/is_member_function_pointer.hpp:
+
+/usr/include/c++/11/bits/uniform_int_dist.h:
+
 /usr/include/c++/11/bits/node_handle.h:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
-
-/usr/include/c++/11/bitset:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
 
@@ -4670,17 +4694,11 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
 
-/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
-
-/usr/include/boost/type_traits/is_member_function_pointer.hpp:
-
-/usr/include/c++/11/bits/uniform_int_dist.h:
-
 /usr/include/boost/range/iterator_range_io.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/boost/preprocessor/control/if.hpp:
 
@@ -4722,24 +4740,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/c++/11/bits/alloc_traits.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/11/bits/exception_ptr.h:
-
-/usr/include/eigen3/Eigen/src/StlSupport/details.h:
-
-/usr/include/c++/11/bits/charconv.h:
-
-/usr/include/c++/11/cstring:
-
-/usr/include/c++/11/bits/atomic_futex.h:
-
-/usr/include/c++/11/backward/auto_ptr.h:
-
-/usr/include/boost/assert.hpp:
-
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
 /usr/include/unistd.h:
@@ -4747,8 +4747,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
 
 /usr/include/c++/11/bits/stl_algobase.h:
-
-/usr/include/c++/11/cwchar:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
@@ -4772,7 +4770,27 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/c++/11/bits/functexcept.h:
 
-/usr/include/c++/11/vector:
+/usr/include/boost/preprocessor/iterate.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/11/bits/exception_ptr.h:
+
+/usr/include/eigen3/Eigen/src/StlSupport/details.h:
+
+/usr/include/c++/11/bits/charconv.h:
+
+/usr/include/c++/11/cstring:
+
+/usr/include/c++/11/bits/atomic_futex.h:
+
+/usr/include/c++/11/backward/auto_ptr.h:
+
+/usr/include/boost/assert.hpp:
 
 /usr/include/boost/mpl/print.hpp:
 
@@ -4843,6 +4861,8 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 /usr/include/c++/11/bits/codecvt.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
+
+/usr/include/linux/close_range.h:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
@@ -4984,6 +5004,14 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/local/include/opencv4/opencv2/core/affine.hpp:
 
+/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
+
+/opt/ros/humble/include/rcl/rcl/domain_id.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
+
 /usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp:
 
 /usr/include/c++/11/bits/stl_construct.h:
@@ -5031,12 +5059,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 /usr/include/c++/11/ext/string_conversions.h:
 
 /usr/include/boost/preprocessor/list/detail/fold_right.hpp:
-
-/usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
-
-/opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
-
-/usr/include/c++/11/bits/atomic_base.h:
 
 /usr/include/features.h:
 
@@ -5186,10 +5208,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
-/opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
-
 /usr/include/locale.h:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
@@ -5276,6 +5294,12 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/boost/type_traits/add_reference.hpp:
+
+/usr/local/include/opencv4/opencv2/dnn/layer.hpp:
+
 /usr/include/c++/11/typeinfo:
 
 /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h:
@@ -5350,6 +5374,14 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
+/usr/include/boost/preprocessor/arithmetic/mod.hpp:
+
+/usr/include/c++/11/functional:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
+
 /usr/include/c++/11/bits/invoke.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
@@ -5380,6 +5412,12 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/boost/type_traits/enable_if.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
@@ -5400,6 +5438,8 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
 /usr/include/c++/11/cstdint:
 
 /usr/include/boost/mpl/aux_/config/pp_counter.hpp:
@@ -5413,16 +5453,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 /usr/include/boost/type_traits/is_lvalue_reference.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/types/array_list.h:
-
-/usr/include/c++/11/unordered_map:
-
-/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
-
-/usr/include/boost/algorithm/string/std/list_traits.hpp:
-
-/usr/include/boost/mpl/bind_fwd.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:
 
 /usr/include/c++/11/ios:
 
@@ -5470,14 +5500,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
 
-/usr/include/boost/preprocessor/arithmetic/mod.hpp:
-
-/usr/include/c++/11/functional:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
-
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
 
 /usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
@@ -5496,8 +5518,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/c++/11/bits/localefwd.h:
 
-/usr/include/c++/11/pstl/glue_numeric_defs.h:
-
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
@@ -5510,9 +5530,25 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/ctype.h:
 
+/usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/local/include/pangolin/var/varextra.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
+
+/usr/include/c++/11/numeric:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp:
+
+/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
@@ -5534,10 +5570,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/boost/preprocessor/detail/auto_rec.hpp:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
-
 /home/torben/Dev/ORB_SLAM3/Thirdparty/DBoW2/DBoW2/ScoringObject.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
@@ -5546,9 +5578,39 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
+/usr/include/c++/11/cwchar:
+
+/opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
 /usr/include/eigen3/Eigen/src/LU/InverseImpl.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
+
+/usr/include/boost/get_pointer.hpp:
+
+/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
+
+/usr/local/include/pangolin/utils/bitmask.h:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/c++/11/bits/stl_heap.h:
+
+/usr/include/boost/range/reverse_iterator.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:
+
+/usr/include/c++/11/bits/std_abs.h:
+
+/opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp:
 
 /usr/include/stdio.h:
 
@@ -5594,27 +5656,29 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/boost/serialization/item_version_type.hpp:
 
-/usr/include/boost/range/reverse_iterator.hpp:
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:
+/usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
 
-/usr/include/c++/11/bits/std_abs.h:
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
 
-/opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp:
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
 
-/usr/include/c++/11/bits/stl_heap.h:
+/usr/include/c++/11/bitset:
 
-/usr/include/boost/get_pointer.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
 
-/home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
+/usr/include/c++/11/pstl/glue_numeric_defs.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+/usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
 
-/usr/local/include/pangolin/utils/bitmask.h:
+/usr/include/c++/11/bits/atomic_base.h:
 
-/usr/include/c++/11/bits/stl_bvector.h:
+/opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
+
+/usr/include/boost/mpl/apply_wrap.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
 
@@ -5715,8 +5779,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
 
 /usr/include/boost/mpl/or.hpp:
 
@@ -5890,10 +5952,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
-
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp:
 
 /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp:
@@ -5942,6 +6000,10 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/boost/mpl/assert.hpp:
 
+/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
+
+/usr/local/include/opencv4/opencv2/flann/kdtree_single_index.h:
+
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
 /opt/ros/humble/include/message_filters/message_filters/signal9.h:
@@ -5957,10 +6019,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp:
-
-/usr/include/boost/type_traits/enable_if.hpp:
-
-/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp:
 
 /opt/ros/humble/include/tracetools/tracetools/config.h:
 
@@ -6076,8 +6134,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/local/include/opencv4/opencv2/flann/config.h:
 
-/usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
-
 /opt/ros/humble/include/message_filters/message_filters/parameter_adapter.h:
 
 /home/torben/Dev/ORB_SLAM3/Thirdparty/DBoW2/DBoW2/BowVector.h:
@@ -6127,8 +6183,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 /usr/include/boost/core/addressof.hpp:
 
 /usr/include/boost/type_traits/integral_constant.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h:
 
 /usr/include/boost/type_traits/intrinsics.hpp:
 
@@ -6267,8 +6321,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 /usr/include/boost/serialization/split_member.hpp:
 
 /usr/include/boost/preprocessor/punctuation/comma_if.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
 
 /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h:
 
@@ -6458,8 +6510,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/boost/serialization/collections_save_imp.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h:
-
 /usr/include/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp:
 
 /usr/include/boost/serialization/version.hpp:
@@ -6496,9 +6546,9 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h:
 
-/usr/local/include/opencv4/opencv2/flann/hierarchical_clustering_index.h:
-
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
+
+/usr/local/include/opencv4/opencv2/flann/hierarchical_clustering_index.h:
 
 /usr/include/boost/move/detail/config_begin.hpp:
 
@@ -6538,6 +6588,8 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/boost/preprocessor/repetition/repeat_from_to.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+
 /home/torben/Dev/ORB_SLAM3/include/ORBextractor.h:
 
 /home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/rxso3.hpp:
@@ -6559,10 +6611,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 /usr/local/include/opencv4/opencv2/core/async.hpp:
 
 /usr/local/include/opencv4/opencv2/dnn/dnn.hpp:
-
-/usr/include/boost/type_traits/add_reference.hpp:
-
-/usr/local/include/opencv4/opencv2/dnn/layer.hpp:
 
 /usr/local/include/pangolin/image/typed_image.h:
 
@@ -6602,10 +6650,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:
 
-/usr/local/include/opencv4/opencv2/flann/kdtree_single_index.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
-
 /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h:
 
 /usr/include/boost/mpl/aux_/config/msvc.hpp:
@@ -6635,8 +6679,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 /usr/local/include/opencv4/opencv2/stitching/detail/matchers.hpp:
 
 /usr/local/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
 
 /usr/local/include/opencv4/opencv2/stitching/detail/util.hpp:
 
@@ -6682,10 +6724,6 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h:
 
-/usr/include/c++/11/numeric:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
-
 /usr/include/endian.h:
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:
@@ -6693,5 +6731,3 @@ CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: /home/torben/Dev/orbslam_ros/src/
 /usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
-
-/usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:

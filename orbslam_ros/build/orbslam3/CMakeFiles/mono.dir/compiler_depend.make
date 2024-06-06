@@ -37,6 +37,7 @@ CMakeFiles/mono.dir/src/monocular/mono.cpp.o: /home/torben/Dev/orbslam_ros/src/o
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -142,8 +143,11 @@ CMakeFiles/mono.dir/src/monocular/mono.cpp.o: /home/torben/Dev/orbslam_ros/src/o
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -152,6 +156,8 @@ CMakeFiles/mono.dir/src/monocular/mono.cpp.o: /home/torben/Dev/orbslam_ros/src/o
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -247,6 +253,7 @@ CMakeFiles/mono.dir/src/monocular/mono.cpp.o: /home/torben/Dev/orbslam_ros/src/o
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
@@ -320,6 +327,8 @@ CMakeFiles/mono.dir/src/monocular/mono.cpp.o: /home/torben/Dev/orbslam_ros/src/o
   /usr/include/c++/11/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
   /opt/ros/humble/include/rcutils/rcutils/time.h \
   /opt/ros/humble/include/rcutils/rcutils/types.h \
@@ -1730,6 +1739,7 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
@@ -1809,6 +1819,7 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/allocated_ptr.h \
@@ -1892,8 +1903,11 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -1902,6 +1916,8 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/std_mutex.h \
@@ -1994,6 +2010,8 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
   /usr/include/c++/11/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
   /opt/ros/humble/include/rcutils/rcutils/time.h \
   /opt/ros/humble/include/rcutils/rcutils/types.h \
@@ -3410,8 +3428,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /usr/include/boost/current_function.hpp:
 
-/usr/include/boost/preprocessor/iterate.hpp:
-
 /usr/include/boost/function.hpp:
 
 /usr/include/boost/algorithm/string/detail/find_iterator.hpp:
@@ -3778,8 +3794,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /usr/include/boost/mpl/aux_/template_arity.hpp:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
-
 /usr/include/boost/mpl/aux_/config/bcc.hpp:
 
 /usr/include/boost/mpl/aux_/has_type.hpp:
@@ -4050,27 +4064,21 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h:
 
-/usr/local/include/pangolin/var/varextra.h:
+/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:
 
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:
+/usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h:
 
-/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp:
+/usr/include/boost/mem_fn.hpp:
 
-/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:
+/usr/include/eigen3/Eigen/src/plugins/BlockMethods.h:
 
-/opt/ros/humble/include/rmw/rmw/ret_types.h:
+/usr/include/boost/preprocessor/slot/detail/shared.hpp:
 
-/usr/include/boost/type_traits/is_function.hpp:
+/usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h:
 
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
 
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
-
-/usr/include/boost/algorithm/string/detail/finder.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp:
+/usr/include/eigen3/Eigen/src/Core/IO.h:
 
 /usr/include/boost/preprocessor/facilities/identity.hpp:
 
@@ -4085,8 +4093,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp:
 
@@ -4250,10 +4256,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
 
-/usr/include/boost/type_traits/has_minus_assign.hpp:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
-
 /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h:
 
 /usr/include/wctype.h:
@@ -4282,6 +4284,8 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
+
 /usr/include/boost/type_traits/is_const.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
@@ -4294,9 +4298,9 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
 /usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
 
@@ -4348,8 +4352,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /usr/include/boost/preprocessor/list/fold_left.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
-
 /usr/include/c++/11/bits/locale_facets_nonio.h:
 
 /home/torben/Dev/ORB_SLAM3/Thirdparty/g2o/g2o/core/base_binary_edge.h:
@@ -4367,10 +4369,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /usr/include/boost/algorithm/string/detail/find_format.hpp:
 
 /opt/ros/humble/include/rcl/rcl/service.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
-
-/opt/ros/humble/include/rcl/rcl/domain_id.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:
 
@@ -4399,6 +4397,8 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /usr/include/eigen3/Eigen/src/Core/DenseStorage.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
 
@@ -4488,6 +4488,14 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /usr/local/include/opencv4/opencv2/core/base.hpp:
 
+/usr/include/boost/type_traits/has_minus_assign.hpp:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
 /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
 
 /usr/include/boost/function/function_fwd.hpp:
@@ -4499,6 +4507,10 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp:
 
 /opt/ros/humble/include/rcl/rcl/macros.h:
+
+/opt/ros/humble/include/rmw/rmw/ret_types.h:
+
+/usr/include/boost/type_traits/is_function.hpp:
 
 /opt/ros/humble/include/rmw/rmw/visibility_control.h:
 
@@ -4552,10 +4564,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /usr/include/boost/type_traits/is_rvalue_reference.hpp:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
-
 /usr/include/c++/11/bits/stl_set.h:
 
 /usr/include/eigen3/Eigen/src/Householder/Householder.h:
@@ -4567,16 +4575,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
 
 /usr/include/c++/11/atomic:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
-
-/usr/include/c++/11/bitset:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
 
 /usr/include/c++/11/bits/std_mutex.h:
 
@@ -4595,6 +4593,34 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
 
 /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
+
+/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/formatstring.hpp:
+
+/usr/include/boost/mpl/aux_/config/integral.hpp:
+
+/usr/include/c++/11/bits/align.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
+
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/opt/ros/humble/include/rmw/rmw/serialized_message.h:
+
+/usr/include/boost/core/use_default.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/VectorBlock.h:
+
+/usr/include/c++/11/memory:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/include/c++/11/chrono:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
@@ -4619,10 +4645,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /usr/include/c++/11/bits/shared_ptr_base.h:
 
 /usr/include/c++/11/bits/basic_string.h:
-
-/usr/include/c++/11/backward/binders.h:
-
-/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
 
@@ -4689,12 +4711,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp:
 
 /usr/local/include/opencv4/opencv2/opencv.hpp:
-
-/usr/include/boost/throw_exception.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/local/include/opencv4/opencv2/core/saturate.hpp:
 
 /opt/ros/humble/include/rcl/rcl/types.h:
 
@@ -4768,14 +4784,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /usr/local/include/opencv4/opencv2/highgui.hpp:
 
-/usr/include/boost/mpl/limits/arity.hpp:
-
-/usr/include/c++/11/bits/sstream.tcc:
-
-/usr/include/boost/mpl/aux_/value_wknd.hpp:
-
-/usr/include/c++/11/new:
-
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/c++/11/ext/atomicity.h:
@@ -4785,6 +4793,14 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/boost/preprocessor/arithmetic/inc.hpp:
+
+/usr/include/boost/mpl/limits/arity.hpp:
+
+/usr/include/c++/11/bits/sstream.tcc:
+
+/usr/include/boost/mpl/aux_/value_wknd.hpp:
+
+/usr/include/c++/11/new:
 
 /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
@@ -4805,10 +4821,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
-
-/opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
 
 /usr/include/c++/11/tuple:
 
@@ -4844,11 +4856,15 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/c++/11/bits/postypes.h:
 
 /usr/local/include/opencv4/opencv2/flann/dist.h:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/c++/11/cstdint:
 
@@ -4884,13 +4900,19 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /usr/include/boost/mpl/aux_/yes_no.hpp:
 
+/usr/include/c++/11/backward/binders.h:
+
+/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:
+
+/usr/include/boost/throw_exception.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/local/include/opencv4/opencv2/core/saturate.hpp:
+
 /usr/include/boost/type_traits/add_volatile.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:
-
-/usr/include/c++/11/tr1/poly_hermite.tcc:
-
-/usr/include/c++/11/bits/memoryfwd.h:
 
 /usr/include/c++/11/bits/stl_function.h:
 
@@ -4990,6 +5012,10 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /usr/include/linux/close_range.h:
 
+/usr/include/boost/preprocessor/iterate.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
 /usr/include/eigen3/Eigen/src/Core/SolveTriangular.h:
 
 /usr/include/c++/11/bits/functexcept.h:
@@ -5033,8 +5059,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /usr/include/boost/mpl/aux_/arity.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/c++/11/cwchar:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
@@ -5084,6 +5108,12 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/boost/type_traits/add_reference.hpp:
+
+/usr/local/include/opencv4/opencv2/dnn/layer.hpp:
+
 /usr/include/c++/11/iterator:
 
 /usr/include/boost/config/detail/posix_features.hpp:
@@ -5101,28 +5131,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
 
 /opt/ros/humble/include/rcl/rcl/graph.h:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/boost/detail/select_type.hpp:
-
-/usr/include/boost/config/detail/select_compiler_config.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
-
-/usr/include/c++/11/cstdlib:
-
-/usr/include/c++/11/string_view:
-
-/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:
-
-/usr/include/boost/type_traits/is_complete.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/Replicate.h:
-
-/usr/include/boost/preprocessor/detail/auto_rec.hpp:
 
 /usr/include/boost/serialization/type_info_implementation.hpp:
 
@@ -5176,6 +5184,36 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /usr/include/boost/preprocessor/control/if.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/local/include/pangolin/var/varextra.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp:
+
+/home/torben/Dev/ORB_SLAM3/include/KeyFrame.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/boost/detail/select_type.hpp:
+
+/usr/include/boost/config/detail/select_compiler_config.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
+
+/usr/include/c++/11/cstdlib:
+
+/usr/include/c++/11/string_view:
+
+/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:
+
+/usr/include/boost/type_traits/is_complete.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/Replicate.h:
+
+/usr/include/boost/preprocessor/detail/auto_rec.hpp:
+
 /usr/include/c++/11/bits/functional_hash.h:
 
 /home/torben/Dev/ORB_SLAM3/Thirdparty/DBoW2/DBoW2/ScoringObject.h:
@@ -5198,9 +5236,19 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
 
+/usr/include/c++/11/cwchar:
+
+/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
+
+/opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
 /usr/include/eigen3/Eigen/src/LU/InverseImpl.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
+
+/usr/include/c++/11/cwctype:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
 
@@ -5214,11 +5262,21 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
-/usr/include/c++/11/chrono:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
-
 /usr/include/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/boost/type_traits/enable_if.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp:
+
+/usr/include/c++/11/bits/this_thread_sleep.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
+
+/opt/ros/humble/include/rmw/rmw/event.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/boost/serialization/config.hpp:
 
@@ -5314,8 +5372,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
 
-/usr/include/c++/11/cwctype:
-
 /usr/local/include/pangolin/windowing/handler_enums.h:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
@@ -5325,14 +5381,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /opt/ros/humble/include/rcl/rcl/log_level.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
-
-/usr/include/c++/11/bits/this_thread_sleep.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
-
-/opt/ros/humble/include/rmw/rmw/event.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/c++/11/istream:
 
@@ -5415,20 +5463,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
 /usr/include/c++/11/vector:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
-
-/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/formatstring.hpp:
-
-/usr/include/boost/mpl/aux_/config/integral.hpp:
-
-/usr/include/c++/11/bits/align.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
@@ -5562,6 +5596,14 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
+/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
+
+/opt/ros/humble/include/rcl/rcl/domain_id.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
 /opt/ros/humble/include/rmw/rmw/macros.h:
@@ -5572,15 +5614,31 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
-/opt/ros/humble/include/rmw/rmw/serialized_message.h:
+/usr/include/c++/11/bits/memoryfwd.h:
 
-/usr/include/boost/core/use_default.hpp:
+/usr/include/c++/11/tr1/poly_hermite.tcc:
 
-/usr/include/eigen3/Eigen/src/Core/VectorBlock.h:
+/usr/include/boost/algorithm/string/detail/finder.hpp:
 
-/usr/include/c++/11/memory:
+/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
 
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+/opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
+
+/usr/include/c++/11/bitset:
+
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
 
 /usr/include/c++/11/pstl/glue_numeric_defs.h:
 
@@ -5591,6 +5649,10 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
 
 /usr/include/boost/mpl/apply_wrap.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
 
@@ -5635,8 +5697,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/MatrixBase.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
 
@@ -5687,8 +5747,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
 
 /usr/include/boost/mpl/or.hpp:
 
@@ -5834,9 +5892,9 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
 
-/usr/include/c++/11/tr1/riemann_zeta.tcc:
-
 /usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp:
+
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
 
 /usr/include/limits.h:
 
@@ -5873,10 +5931,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp:
-
-/usr/include/boost/type_traits/enable_if.hpp:
-
-/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp:
 
 /opt/ros/humble/include/tracetools/tracetools/config.h:
 
@@ -5995,10 +6049,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /usr/local/include/opencv4/opencv2/flann/config.h:
 
 /usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
-
-/usr/include/boost/preprocessor/slot/detail/shared.hpp:
-
-/usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h:
 
 /home/torben/Dev/ORB_SLAM3/Thirdparty/DBoW2/DBoW2/BowVector.h:
 
@@ -6448,17 +6498,13 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /usr/include/boost/move/detail/workaround.hpp:
 
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
-
 /usr/include/boost/move/detail/meta_utils.hpp:
 
 /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:
 
-/usr/include/c++/11/tr1/poly_laguerre.tcc:
-
 /usr/include/c++/11/array:
+
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
 
 /home/torben/Dev/ORB_SLAM3/Thirdparty/DBoW2/DBoW2/FeatureVector.h:
 
@@ -6470,7 +6516,15 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 
 /usr/include/boost/preprocessor/repetition/repeat_from_to.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+
 /home/torben/Dev/ORB_SLAM3/include/ORBextractor.h:
+
+/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/rxso3.hpp:
+
+/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:
+
+/usr/local/include/opencv4/opencv2/calib3d.hpp:
 
 /usr/local/include/opencv4/opencv2/core/mat.hpp:
 
@@ -6485,10 +6539,6 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /usr/local/include/opencv4/opencv2/core/async.hpp:
 
 /usr/local/include/opencv4/opencv2/dnn/dnn.hpp:
-
-/usr/include/boost/type_traits/add_reference.hpp:
-
-/usr/local/include/opencv4/opencv2/dnn/layer.hpp:
 
 /usr/local/include/pangolin/image/typed_image.h:
 
@@ -6633,17 +6683,3 @@ CMakeFiles/mono.dir/src/monocular/monocular-slam-node.cpp.o: /home/torben/Dev/or
 /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
 
 /usr/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h:
-
-/usr/include/eigen3/Eigen/src/Core/IO.h:
-
-/usr/include/boost/mem_fn.hpp:
-
-/usr/include/eigen3/Eigen/src/plugins/BlockMethods.h:
-
-/home/torben/Dev/ORB_SLAM3/Thirdparty/Sophus/sophus/rxso3.hpp:
-
-/usr/local/include/opencv4/opencv2/calib3d.hpp:
-
-/usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:
-
-/usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h:

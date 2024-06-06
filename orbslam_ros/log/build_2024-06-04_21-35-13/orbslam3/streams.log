@@ -1,0 +1,23 @@
+[0.018s] Invoking command in '/home/torben/Dev/orbslam_ros/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/torben/Dev/orbslam_ros/build/orbslam3 -- -j12 -l12
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target stereo-inertial[0m
+[0.101s] [ 25%] Built target rgbd
+[0.111s] [ 50%] Built target stereo
+[0.115s] [ 75%] Built target mono
+[0.144s] [ 83%] [32mBuilding CXX object CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o[0m
+[0.145s] [ 91%] [32mBuilding CXX object CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial.cpp.o[0m
+[0.366s] In file included from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp:1[m[K:
+[0.367s] [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11:10:[m[K [01;31m[Kfatal error: [m[Ktf/tf.h: No such file or directory
+[0.367s]    11 | #include [01;31m[K<tf/tf.h>[m[K
+[0.367s]       |          [01;31m[K^~~~~~~~~[m[K
+[0.367s] compilation terminated.
+[0.379s] gmake[2]: *** [CMakeFiles/stereo-inertial.dir/build.make:90: CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o] Error 1
+[0.379s] gmake[2]: *** Waiting for unfinished jobs....
+[0.479s] In file included from [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial.cpp:7[m[K:
+[0.479s] [01m[K/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.hpp:11:10:[m[K [01;31m[Kfatal error: [m[Ktf/tf.h: No such file or directory
+[0.479s]    11 | #include [01;31m[K<tf/tf.h>[m[K
+[0.479s]       |          [01;31m[K^~~~~~~~~[m[K
+[0.479s] compilation terminated.
+[0.485s] gmake[2]: *** [CMakeFiles/stereo-inertial.dir/build.make:76: CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial.cpp.o] Error 1
+[0.485s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/stereo-inertial.dir/all] Error 2
+[0.486s] gmake: *** [Makefile:146: all] Error 2
+[0.490s] Invoked command in '/home/torben/Dev/orbslam_ros/build/orbslam3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/torben/Dev/orbslam_ros/build/orbslam3 -- -j12 -l12

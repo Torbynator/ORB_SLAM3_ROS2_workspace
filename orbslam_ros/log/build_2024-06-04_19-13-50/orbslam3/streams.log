@@ -1,0 +1,25 @@
+[0.008s] Invoking command in '/home/torben/Dev/orbslam_ros/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/torben/Dev/orbslam_ros/build/orbslam3 -- -j12 -l12
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target stereo-inertial[0m
+[0.059s] [ 25%] Built target rgbd
+[0.062s] [ 33%] [32m[1mLinking CXX executable stereo[0m
+[0.063s] [ 58%] Built target mono
+[0.097s] [ 66%] [32m[1mLinking CXX executable stereo-inertial[0m
+[0.307s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.2
+[0.307s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.2
+[0.308s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.2
+[0.317s] /usr/bin/ld: CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o: undefined reference to symbol '_ZN2cv23initUndistortRectifyMapERKNS_11_InputArrayES2_S2_S2_NS_5Size_IiEEiRKNS_12_OutputArrayES7_'
+[0.318s] /usr/bin/ld: /usr/local/lib/libopencv_calib3d.so.4.2: error adding symbols: DSO missing from command line
+[0.321s] collect2: error: ld returned 1 exit status
+[0.323s] gmake[2]: *** [CMakeFiles/stereo-inertial.dir/build.make:260: stereo-inertial] Error 1
+[0.323s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/stereo-inertial.dir/all] Error 2
+[0.323s] gmake[1]: *** Waiting for unfinished jobs....
+[0.357s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.2
+[0.357s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.2
+[0.357s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.2
+[0.363s] /usr/bin/ld: CMakeFiles/stereo.dir/src/stereo/stereo-slam-node.cpp.o: undefined reference to symbol '_ZN2cv23initUndistortRectifyMapERKNS_11_InputArrayES2_S2_S2_NS_5Size_IiEEiRKNS_12_OutputArrayES7_'
+[0.363s] /usr/bin/ld: /usr/local/lib/libopencv_calib3d.so.4.2: error adding symbols: DSO missing from command line
+[0.366s] collect2: error: ld returned 1 exit status
+[0.367s] gmake[2]: *** [CMakeFiles/stereo.dir/build.make:218: stereo] Error 1
+[0.368s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/stereo.dir/all] Error 2
+[0.368s] gmake: *** [Makefile:146: all] Error 2
+[0.370s] Invoked command in '/home/torben/Dev/orbslam_ros/build/orbslam3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/torben/Dev/orbslam_ros/build/orbslam3 -- -j12 -l12
