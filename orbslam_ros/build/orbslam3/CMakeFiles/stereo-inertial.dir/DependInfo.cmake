@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp" "CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o" "gcc" "CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o.d"
-  "/home/torben/Dev/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial.cpp" "CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial.cpp.o" "gcc" "CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial.cpp.o.d"
+  "/home/torben/ORB_SLAM3_ROS2_workspace/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial-node.cpp" "CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o" "gcc" "CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o.d"
+  "/home/torben/ORB_SLAM3_ROS2_workspace/orbslam_ros/src/orbslam3_ros2/src/stereo-inertial/stereo-inertial.cpp" "CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial.cpp.o" "gcc" "CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial.cpp.o.d"
   )
 
 # Targets to which this target links.

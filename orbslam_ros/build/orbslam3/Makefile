@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/torben/Dev/orbslam_ros/src/orbslam3_ros2
+CMAKE_SOURCE_DIR = /home/torben/ORB_SLAM3_ROS2_workspace/orbslam_ros/src/orbslam3_ros2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/torben/Dev/orbslam_ros/build/orbslam3
+CMAKE_BINARY_DIR = /home/torben/ORB_SLAM3_ROS2_workspace/orbslam_ros/build/orbslam3
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torben/Dev/orbslam_ros/build/orbslam3/CMakeFiles /home/torben/Dev/orbslam_ros/build/orbslam3//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torben/ORB_SLAM3_ROS2_workspace/orbslam_ros/build/orbslam3/CMakeFiles /home/torben/ORB_SLAM3_ROS2_workspace/orbslam_ros/build/orbslam3//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/torben/Dev/orbslam_ros/build/orbslam3/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/torben/ORB_SLAM3_ROS2_workspace/orbslam_ros/build/orbslam3/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

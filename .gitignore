@@ -53,3 +53,7 @@ Build
 
 # vs-code
 .vscode
+
+orbslam_ros/build/*
+orbslam_ros/install/*
+orbslam_ros/log/*

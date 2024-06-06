@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/torben/Dev/orbslam_ros/src/orbslam3_ros2
+CMAKE_SOURCE_DIR = /home/torben/ORB_SLAM3_ROS2_workspace/orbslam_ros/src/orbslam3_ros2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/torben/Dev/orbslam_ros/build/orbslam3
+CMAKE_BINARY_DIR = /home/torben/ORB_SLAM3_ROS2_workspace/orbslam_ros/build/orbslam3
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/torben/Dev/orbslam_ros/build/orbslam3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/torben/Dev/orbslam_ros/src/orbslam3_ros2 /home/torben/Dev/orbslam_ros/src/orbslam3_ros2 /home/torben/Dev/orbslam_ros/build/orbslam3 /home/torben/Dev/orbslam_ros/build/orbslam3 /home/torben/Dev/orbslam_ros/build/orbslam3/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/torben/ORB_SLAM3_ROS2_workspace/orbslam_ros/build/orbslam3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/torben/ORB_SLAM3_ROS2_workspace/orbslam_ros/src/orbslam3_ros2 /home/torben/ORB_SLAM3_ROS2_workspace/orbslam_ros/src/orbslam3_ros2 /home/torben/ORB_SLAM3_ROS2_workspace/orbslam_ros/build/orbslam3 /home/torben/ORB_SLAM3_ROS2_workspace/orbslam_ros/build/orbslam3 /home/torben/ORB_SLAM3_ROS2_workspace/orbslam_ros/build/orbslam3/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

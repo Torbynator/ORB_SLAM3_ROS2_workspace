@@ -1,1 +1,1 @@
-/home/torben/Dev/orbslam_ros/build/orbslam3/ament_cmake_environment_hooks/local_setup.sh
+/home/torben/ORB_SLAM3_ROS2_workspace/orbslam_ros/build/orbslam3/ament_cmake_environment_hooks/local_setup.sh
