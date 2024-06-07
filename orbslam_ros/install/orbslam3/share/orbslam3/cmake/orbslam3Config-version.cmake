@@ -1,1 +1,0 @@
-/home/torben/ORB_SLAM3_ROS2_workspace/orbslam_ros/build/orbslam3/ament_cmake_core/orbslam3Config-version.cmake
