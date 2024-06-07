@@ -1,3 +1,12 @@
-[submodule "ORB_SLAM3]
+[submodule "ORB_SLAM3"]
 	path = ORB_SLAM3
 	url = https://github.com/Torbynator/ORB-SLAM3-STEREO-FIXED.git
+[submodule "Pangolin"]
+	path = Pangolin
+	url = https://github.com/stevenlovegrove/Pangolin.git
+[submodule "kalibr"]
+	path = kalibr
+	url = https://github.com/ethz-asl/kalibr.git
+[submodule "orbslam3_ros2"]
+	path = orbslam_ros/src/orbslam3_ros2
+	url = https://github.com/Torbynator/ORB_SLAM3_ROS2.git
